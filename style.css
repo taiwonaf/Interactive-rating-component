@@ -35,6 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px 25px;
+    margin: 30px 0px 50px 0px;
 }
 
 .star {
@@ -66,7 +67,7 @@ body {
     margin-bottom: 30px;
 }
 
-.rates .rate {
+.rate {
     background-color: hsla(217, 12%, 63%, 0.115);
     height: 50px;
     width: 50px;
@@ -102,10 +103,6 @@ body {
 .rates .rate:hover {
     background-color: var(--Orange);
     color: white;
-}
-
-.rates .rate:visited {
-    background-color: var(--Light-Grey);
 }
 
 .thank-you {
@@ -145,4 +142,21 @@ body {
 
 .thank-you p {
     color: var(--Light-Grey);
+}
+
+.this {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 380px;
+        margin: 50px 20px;
+    }
+
+    .this {
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+    }
 }
